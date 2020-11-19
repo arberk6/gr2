@@ -1,0 +1,39 @@
+li,
+a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+#forma-id {
+    color: red;
+    background-color: aquamarine;
+    width: 300px;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.myForm {
+
+    margin-top: 100px;
+}
+
+.form-input {
+    margin: 0 auto;
+}
+
+.form-element {
+    display: block;
+}
+
+.p1 {
+    border: 1px solid black;
+    display: inline;
+}
+
+#para1 {
+    /* margin-left: 10px; */
+    padding-left: 10px;
+}

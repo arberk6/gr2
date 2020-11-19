@@ -1,0 +1,46 @@
+.header-content {
+    border: 1px solid black;
+    width: 20%;
+    /* margin: 0 auto; */
+    /* position: static; */
+    position: relative;
+    /* position: absolute; */
+    top: 35%;
+    height: 30%;
+    left: 40%;
+    /* bottom: ;
+    right: ;
+    left: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    /* viewport height  */
+    /* viewport width  */
+    height: 100vh;
+    background-image: url(../UBT-LOGO.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+ul li {
+    margin: 0 5px;
+}

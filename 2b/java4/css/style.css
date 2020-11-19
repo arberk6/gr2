@@ -1,0 +1,39 @@
+.header-content {
+    border: 1px solid black;
+    width: 25%;
+    /* margin: auto auto; */
+    height: 30%;
+    /* position: static; */
+    position: relative;
+    /* position: absolute; */
+    top: 35%;
+    left: 37.5%;
+    /* right: 37.5%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+    /* viewport-height */
+    height: 100vh;
+    /* viewport-width */
+    width: 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.link-container {
+    display: flex;
+    list-style-type: none;
+}
+
+.link-container li {
+    margin: 0 5px;
+}

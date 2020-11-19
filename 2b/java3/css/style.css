@@ -1,0 +1,56 @@
+li {
+    display: inline;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: inline;
+}
+
+.form-element {
+    display: block;
+    text-align: center;
+}
+
+form {
+    background-color: aqua;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.p1 {
+    display: inline;
+    border: 1px solid black;
+}
+
+#para1 {
+    /* margin-left: 10px; */
+    padding-left: 10px;
+}
+
+.input-element {
+    margin: 0 auto;
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+form a {}
+
+form>a {
+    text-align: center;
+}
+
+
+
+/* main>p {
+    color: red;
+} */
