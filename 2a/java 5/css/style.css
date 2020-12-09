@@ -1,0 +1,98 @@
+.header-content {
+    border: 1px solid black;
+    width: 20%;
+    /* margin: 0 auto; */
+    /* position: static; */
+    position: relative;
+    /* position: absolute; */
+    top: 35%;
+    height: 30%;
+    left: 40%;
+    /* bottom: ;
+    right: ;
+    left: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* viewport height  */
+    /* viewport width  */
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../UBT-LOGO.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+ul li {
+    margin: 0 5px;
+}
+
+.header-item {
+    margin: 5px 0;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.shadow {
+    height: inherit;
+    width: inherit;
+    background-color: blue;
+    opacity: 0.6;
+    position: absolute;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.links>li {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.links>li:last-child {
+    background-color: indigo;
+}
+
+.upper-container {
+    border: 1px solid black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.upper-container-item {
+    flex-basis: 50px;
+    border: 1px solid black;
+
+}
+
+
+/* .upper-container-item:nth-child(2) {
+    flex-grow: 1;
+} */
